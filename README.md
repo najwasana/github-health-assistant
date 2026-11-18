@@ -1,7 +1,11 @@
 # 🧭 GitHub Repository Health & Beginner Contribution Assistant
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Streamlit](https://app-health-assistant-egnyxjhjrsni37ukxnrus9.streamlit.app/)
+## Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-health-assistant-egnyxjhjrsni37ukxnrus9.streamlit.app/)
+
+Click the badge above to launch the GitHub Health Assistant.
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Tests: Pytest](https://img.shields.io/badge/tests-33%20passed-brightgreen.svg)](https://pytest.org/)
 
