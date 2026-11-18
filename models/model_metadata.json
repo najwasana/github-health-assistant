@@ -1,0 +1,58 @@
+{
+  "dataset_path": "data\\issue_training_data.csv",
+  "total_samples": 85,
+  "train_samples": 63,
+  "test_samples": 22,
+  "classes": [
+    "Beginner-Friendly",
+    "Intermediate",
+    "Advanced"
+  ],
+  "class_distribution": {
+    "Beginner-Friendly": 30,
+    "Intermediate": 30,
+    "Advanced": 25
+  },
+  "accuracy": 0.9091,
+  "macro_precision": 0.9333,
+  "macro_recall": 0.9167,
+  "macro_f1": 0.9153,
+  "per_class_metrics": {
+    "Beginner-Friendly": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8889,
+      "support": 8
+    },
+    "Intermediate": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571,
+      "support": 8
+    },
+    "Advanced": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6
+    }
+  },
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      2,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      6
+    ]
+  ],
+  "vectorizer_vocab_size": 1500
+}
